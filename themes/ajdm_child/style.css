@@ -72,7 +72,10 @@ Table des matières
 }
 
 #primary, #secondary {
-		padding: 20px;
+		padding-right: 50px;
+		padding-left: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 #colophon{
