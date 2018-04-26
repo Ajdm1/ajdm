@@ -92,6 +92,8 @@ Table des matières
 	}
 
 	#primary {
+		margin-top: 20px;
+		margin-bottom: 20px;
 		width: 80%;
 		background-color: white;
 	}
@@ -99,22 +101,9 @@ Table des matières
 	#secondary {
 		width: 80%;
 		background-color: white;
+		margin-bottom: 20px;
+		padding-top: 40px;
 	}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-secondary
