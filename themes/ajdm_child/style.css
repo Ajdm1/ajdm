@@ -51,8 +51,8 @@ Table des matières
 @media screen and (min-width: 600px){
 	#masthead {
 		display: flex;
-		flex-direction: row;
-		align-items: flex-end;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.site-branding{
