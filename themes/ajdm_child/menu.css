@@ -14,11 +14,11 @@
 }
 
 #primary-menu[aria-expanded="true"]{
-	display: all;
+	display: flex;
 }
 
 #primary-menu[aria-expanded="false"]{
-	display: all;
+	display: none;
 }
 
 .menu-item {
@@ -47,11 +47,11 @@
 @media screen and (min-width: 600px){
 
 	#primary-menu[aria-expanded="true"]{
-		display: all;
+		display: flex;
 	}
 
 	#primary-menu[aria-expanded="false"]{
-		display: all;
+		display: flex;
 	}
 
 	#primary-menu {
