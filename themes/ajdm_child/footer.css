@@ -67,3 +67,7 @@
 .custom-logo-link {
     width: 100vw;
 }
+
+.entry-footer {
+    display: none;
+}
