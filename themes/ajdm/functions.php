@@ -120,6 +120,7 @@ add_action( 'widgets_init', 'ajdm_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ajdm_scripts() {
+    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Fira+Sans', false ); 
 	wp_enqueue_style( 'ajdm-google-fonts', 'https://fonts.googleapis.com/css?family=Roboto', false );
 
 	wp_enqueue_style( 'ajdm-style', get_stylesheet_uri() );

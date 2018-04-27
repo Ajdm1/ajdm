@@ -1,0 +1,15 @@
+p{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.site-description{
+    display: none;
+}
+
+h1{ 
+    color: #53668C;
+}
+
+.post-edit-link{
+    display: none;
+}
