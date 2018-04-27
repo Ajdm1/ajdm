@@ -52,11 +52,11 @@ Table des matières
 	#masthead {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		/*align-items: center;*/
 	}
 
 	.site-branding{
-		padding-left: 20px;
+		
 	}
 
 }
