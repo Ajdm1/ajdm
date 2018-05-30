@@ -13,16 +13,16 @@ get_header();
 		<main id="main" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
-
 			<header class="page-header">
 				<?php
-				the_archive_title( '<h1>Liste des stages</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
+				echo '<h1>Liste des stages</h1>';
 				?>
 			</header><!-- .page-header -->
 
 			<?php
 			/* Start the Loop */
+
+
 			while ( have_posts() ) :
 				the_post();
 
@@ -35,7 +35,7 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
+			the_posts_pagination();
 
 		else :
 

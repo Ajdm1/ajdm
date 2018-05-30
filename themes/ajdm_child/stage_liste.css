@@ -1,4 +1,5 @@
-.wp-embed-heading a {
-    color: red;
-    font-family: 'Roboto', sans-serif;
+.post{
+	border-radius: 1px;
+	border: solid;
+	padding: 20px;
 }

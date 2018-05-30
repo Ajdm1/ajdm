@@ -15,10 +15,7 @@ get_header();
 
 		<?php
 		while ( have_posts() ) :
-			the_post();
-
-			the_post_navigation();
-                			
+			the_post();                			
 		endwhile; // End of the loop.
             
         
@@ -26,11 +23,11 @@ get_header();
 		?>
         <article>
             
-        <p><?php the_field('description'); ?></p>
-        <p><?php the_field('superviseur'); ?></p>
-        <p><?php the_field('langages'); ?></p>
-        <p><?php the_field('type'); ?></p>
-        <p><?php the_field('carte'); ?></p>
+       <?php
+	       get_template_part( 'template-parts/content_stage', get_post_type() ); //Refère au template pour le stage individuel
+	       the_post_navigation();
+
+       ?>
             
         </article>
 

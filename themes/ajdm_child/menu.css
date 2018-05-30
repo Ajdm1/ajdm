@@ -25,10 +25,12 @@
 	list-style: none;
 	border: solid;
 	border-radius: 1px;
+	border-color: #707070;
 	text-align: center;
 	width: 75vw;
 	padding: 5px;
 	margin-top: 10px;
+	background-color: #e9eaed;
 }
 
 .menu-item a {
@@ -70,7 +72,7 @@
 
 	.menu-item:hover{
 		border-radius: 10px;
-		background-color: #AAB4C8;
+		background-color: #7a9bbb;
 	}
 
 	.menu-item a:hover{

@@ -33,4 +33,12 @@ function my_acf_google_map_api( $api ){
 
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 
+add_filter('pre_get_posts', 'limite_posts');
+function limite_posts($query){
+    if ($query->is_category) {
+        $query->set('posts_per_page', 5);
+    }
+    return $query;
+}
+
 ?>
