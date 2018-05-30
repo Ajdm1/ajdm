@@ -7,6 +7,18 @@
 		border-bottom: solid 2px;
 	}
 
+.entry-meta{
+	text-align: left;
+}
+
+.posted-on, .byline{
+	border-top: solid 1px;
+}
+
+.entry-title a{
+	color: black;
+}
+
 
 @media screen and (min-width: 600px){
 	.posted-on, .byline{
@@ -24,5 +36,10 @@
 
 	.post h2{
 		border-bottom: solid 3px;
+	}
+
+	.entry-meta{
+		display: all;
+		text-align: right;
 	}
 }
