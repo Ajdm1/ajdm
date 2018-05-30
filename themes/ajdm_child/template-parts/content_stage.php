@@ -11,7 +11,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		echo "test";
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -45,12 +44,17 @@
 			),
 			get_the_title()
 		) );
-
+		//Ajout des champs de ACF au stage individuel
+		?>
+        <p>Superviseur : <?php the_field('superviseur'); ?></p>
+        <p>Languages requient : <?php the_field('langages'); ?></p>
+        <p>Système d'exploitation : <?php the_field('type'); ?></p>
+        <p><?php the_field('carte'); ?></p>
+        <?php
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ajdm' ),
 			'after'  => '</div>',
-		) );
-		?>
+		) );?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
