@@ -1,10 +1,28 @@
 .post{
-	border-radius: 1px;
-	border: solid;
-	padding: 20px;
-}
+		border-bottom: solid;
+		padding: 20px;
+	}
 
 .post h2{
-	border-bottom: solid;
-	border-radius: 1px;
+		border-bottom: solid 2px;
+	}
+
+
+@media screen and (min-width: 600px){
+	.posted-on, .byline{
+		border-top: solid 2px;
+	}
+
+	.post{
+		border: solid;
+		padding: 20px;
+	}
+
+	.post:hover{
+		border-radius: 50px;
+	}
+
+	.post h2{
+		border-bottom: solid 3px;
+	}
 }
