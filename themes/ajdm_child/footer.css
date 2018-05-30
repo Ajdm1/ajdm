@@ -9,7 +9,7 @@
 .wii {
     display: flex;
 	flex-direction: column;
-	background-color: #e8eaed;
+	background-color: #7a9bbb;
 	text-align: center;
     
     
@@ -19,7 +19,7 @@
 .wii2 {
     display: flex;
 	flex-direction: column;
-	background-color: #e8eaed;
+	background-color: #7a9bbb;
 	text-align: center;
     
     
@@ -37,7 +37,7 @@
     .wii {
     display: flex;
 	flex-direction: row;
-	background-color: #e8eaed;
+	background-color: #7a9bbb;
 	text-align: center;
     
     
@@ -47,7 +47,7 @@
     .wii2 {
         display: flex;
         flex-direction: row;
-        background-color: #e8eaed;
+        background-color: #7a9bbb;
         text-align: center;
 
 

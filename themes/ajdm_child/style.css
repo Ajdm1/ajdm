@@ -40,7 +40,7 @@ Table des matières
 #masthead {
 	display: flex;
 	flex-direction: column;
-	background-color: #e8eaed;
+	background-color: #eeae95;
 	text-align: center;
 }
 
@@ -88,7 +88,7 @@ Table des matières
 	#content {
 		display: flex;
 		flex-direction: column;
-		background-color: #AAB4C8;
+		background-color: #abcbfb;
 		align-items: center;
 	}
 

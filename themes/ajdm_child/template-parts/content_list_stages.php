@@ -45,8 +45,6 @@
 			),
 			get_the_title()
 		) );
-		echo get_field('nom_entreprise');
-
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ajdm' ),
 			'after'  => '</div>',
