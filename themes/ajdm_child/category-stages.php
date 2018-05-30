@@ -22,7 +22,7 @@ get_header();
 			<?php
 			/* Start the Loop */
 
-			
+
 			while ( have_posts() ) :
 				the_post();
 
@@ -35,7 +35,7 @@ get_header();
 
 			endwhile;
 
-			the_posts_navigation();
+			the_posts_pagination();
 
 		else :
 
