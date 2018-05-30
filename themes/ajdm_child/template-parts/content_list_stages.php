@@ -45,7 +45,6 @@
 			),
 			get_the_title()
 		) );
-
 		echo get_field('nom_entreprise');
 
 		wp_link_pages( array(
