@@ -55,10 +55,6 @@ Table des matières
 		/*align-items: center;*/
 	}
 
-	.site-branding{
-		
-	}
-
 }
 
 
@@ -82,6 +78,10 @@ Table des matières
 #colophon{
 	background-color: #e8eaed;
 	height: 100px;
+}
+
+p, h1, h2, a{
+	font-family: 'Fira Sans', sans-serif;
 }
 
 @media screen and (min-width: 600px){
