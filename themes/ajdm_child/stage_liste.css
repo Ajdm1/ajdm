@@ -3,3 +3,8 @@
 	border: solid;
 	padding: 20px;
 }
+
+.post h2{
+	border-bottom: solid;
+	border-radius: 1px;
+}

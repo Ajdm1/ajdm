@@ -31,9 +31,10 @@
 
 	<?php ajdm_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content"> 
+		<p><?php echo get_field('description') ?></p>
+		<p><?php echo get_field('adresse') ?></p>
 		<?php
-		echo get_field('description');
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ajdm' ),
 			'after'  => '</div>',
