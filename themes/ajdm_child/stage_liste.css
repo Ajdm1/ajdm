@@ -19,6 +19,9 @@
 	color: black;
 }
 
+.nav-links{
+		text-align: center;
+}
 
 @media screen and (min-width: 600px){
 	.posted-on, .byline{
@@ -28,6 +31,7 @@
 	.post{
 		border: solid;
 		padding: 20px;
+		box-shadow: 5px 10px #888888;
 	}
 
 	.post:hover{
@@ -43,3 +47,17 @@
 		text-align: right;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
