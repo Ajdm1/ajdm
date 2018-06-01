@@ -6,10 +6,71 @@ p{
     display: none;
 }
 
-h1{ 
-    color: #53668C;
+h1,h2,h3,h4{ 
+    color: #53668C; 
+}
+
+.clear{
+    display: inline;
+    justify-content: center;
+}
+
+.division{
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.division h2{
+   padding:25px; 
 }
 
 .post-edit-link{
     display: none;
 }
+
+.entry-content{
+    margin-right: 50px;
+    margin-left: 50px;
+    background: white;
+}
+.home{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.full-width p{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#rich_webSlider1_1{
+    padding-bottom: 20px;
+}
+
+.accueil-title{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 600px){
+    .clear{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .division{
+        width: 40%;
+        border: 1px solid black;
+        background: white;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+

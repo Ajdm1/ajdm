@@ -17,6 +17,8 @@
 		return;
 	}
 
+	button.innerHTML = 'Menu'; //Modification du nom du menu
+
 	menu = container.getElementsByTagName( 'ul' )[0];
 
 	// Hide menu toggle button if menu is empty and return early.

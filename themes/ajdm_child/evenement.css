@@ -1,0 +1,8 @@
+
+.tribe-events-widget-link {
+    display: none;
+}
+
+#tribe-events-content table.tribe-events-calendar{
+    border-collapse: separate;
+}

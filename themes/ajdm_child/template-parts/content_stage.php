@@ -19,12 +19,6 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				ajdm_posted_on();
-				ajdm_posted_by();
-				?>
-			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -49,14 +43,19 @@
         <p>Superviseur : <?php the_field('superviseur'); ?></p>
         <p>Languages requient : <?php the_field('langages'); ?></p>
         <p>Système d'exploitation : <?php the_field('type'); ?></p>
-        <p><?php the_field('carte'); ?></p>
+        <p>Adress : <?php the_field('adresse'); ?></p>
         <?php
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ajdm' ),
 			'after'  => '</div>',
 		) );?>
 	</div><!-- .entry-content -->
-
+	<div class="entry-meta">
+				<?php
+				ajdm_posted_on();
+				ajdm_posted_by();
+				?>
+			</div><!-- .entry-meta -->
 	<footer class="entry-footer">
 		<?php ajdm_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
