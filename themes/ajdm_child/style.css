@@ -42,6 +42,7 @@ Table des matières
 	flex-direction: column;
 	background-color: #eeae95;
 	text-align: center;
+	width: 100%;
 }
 
 .site-branding a {
@@ -52,7 +53,6 @@ Table des matières
 	#masthead {
 		display: flex;
 		flex-direction: column;
-		/*align-items: center;*/
 	}
 
 }
@@ -64,8 +64,17 @@ Table des matières
 -----------------------------------
 */
 
+body{
+	background-color: #7a9bbb;
+}
+
+#page{
+	width: 100%;
+}
+
 #content {
 	background-color: white;
+	width: 100%;
 }
 
 #primary, #secondary {
@@ -77,7 +86,6 @@ Table des matières
 
 #colophon{
 	background-color: #e8eaed;
-	height: 100px;
 }
 
 p, h1, h2, a{
