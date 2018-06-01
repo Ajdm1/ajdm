@@ -4,3 +4,8 @@
     border: #ccc solid 1px;
     margin: 20px 0;
 }
+
+.nav_single{
+	display: flex;
+	justify-content: space-between;
+}

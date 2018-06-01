@@ -21,13 +21,16 @@ get_header();
         
             
 		?>
-        <article>
+        <article class="article_single">
             
        <?php
 	       get_template_part( 'template-parts/content_stage', get_post_type() ); //Refère au template pour le stage individuel
-	       the_post_navigation();
-
-       ?>
+	    ?>
+	    <div class="nav_single">
+		    <p><?php previous_post('%', '', 'yes'); ?></p> <!--//Ajout des posts precedents et suivants sans la mention "previous post"-->
+		    <p><?php next_post('%', '', 'yes'); ?></p>
+		</div>
+       
             
         </article>
 
