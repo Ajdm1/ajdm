@@ -30,8 +30,8 @@ Table des matières
 @import url("footer.css");
 @import url("stage_liste.css");
 @import url("stage_indiv.css");
-
-
+@import url("header.css");
+@import url("evenement.css");
 /* --------------------------------
 # Entete
 -----------------------------------
@@ -86,7 +86,7 @@ body{
 
 #colophon{
 	background-color: #e8eaed;
-}
+s}
 
 p, h1, h2, a{
 	font-family: 'Fira Sans', sans-serif;

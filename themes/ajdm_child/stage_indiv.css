@@ -5,8 +5,15 @@
     margin: 20px 0;
 }
 
+article .entry-content{
+    color: #53668C;
+}
+
+article .entry-header{
+    color: #819ab8;
+}
+
 .nav_single{
 	display: flex;
 	justify-content: space-between;
 }
-

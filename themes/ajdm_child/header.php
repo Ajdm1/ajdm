@@ -27,8 +27,20 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php
-				the_custom_logo();
+				//the_custom_logo(); 
 			?>
+            
+            
+            <!--je code mes logos ci dessous -->
+            
+                <a id="himg" href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php if( dynamic_sidebar('headerIMG') ) :else : endif ?> </a>
+            
+                <a id="himg2" href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php if( dynamic_sidebar('headerIMG2') ) :else : endif ?> </a>
+            
+                <a id="himg3" href="<?php echo esc_url( home_url( '/' ) ); ?>"> <?php if( dynamic_sidebar('headerIMG3') ) :else : endif ?> </a>
+            
+            <!--fin du code des logos -->
+            
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php
 			$ajdm_description = get_bloginfo( 'description', 'display' );

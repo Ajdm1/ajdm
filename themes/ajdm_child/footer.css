@@ -1,5 +1,7 @@
+
+
 #colophon {
-   background-color: #7a9bbb;
+   
     width: 100vw;
    
 }
@@ -10,9 +12,7 @@
 	flex-direction: column;
 	background-color: #7a9bbb;
 	text-align: center;
-    
-    
-   
+    padding-right: 20px;
 }
 
 .wii2 {
@@ -28,7 +28,7 @@
 
 .divFoot {
     width: 100%;
-    padding: 1% 1% 1% 1%;
+    padding:10px;
 }
 
 
@@ -48,15 +48,12 @@
         flex-direction: row;
         background-color: #7a9bbb;
         text-align: center;
-
-
-
     }
 
 
     .divFoot {
         width: 50%;
-        padding: 1% 1% 1% 1%;
+       
     }
 	
 }
@@ -65,8 +62,4 @@
 
 .custom-logo-link {
     width: 100vw;
-}
-
-.entry-footer {
-    display: none;
 }

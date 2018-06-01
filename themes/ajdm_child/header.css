@@ -1,0 +1,45 @@
+#himg{
+    display: none;
+}
+
+#himg2{
+    display: none;
+}
+
+#himg3 img{
+    
+}
+
+@media screen and (min-width: 600px){
+    
+    #himg {
+        display: none;
+    }
+    #himg2 {
+        display: flex;
+    }
+    #himg3 img{
+        width: 200px;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+    }
+	
+}
+
+@media screen and (min-width: 1000px){
+    
+    #himg {
+        display: flex;
+    }
+    #himg2 {
+        display: none;
+    }
+    #himg3 img{
+        width: 200px;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+    }
+	
+}

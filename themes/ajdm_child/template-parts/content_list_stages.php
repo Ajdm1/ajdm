@@ -17,32 +17,30 @@
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
- ?>
+
+		if ( 'post' === get_post_type() ) :
+			?>
+			
+		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<?php ajdm_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<!--Ajout des champs ACF aux postes qui apparaissent dans la liste-->
-		<p><?php echo get_field('description') ?></p>
-		<p><?php echo get_field('adresse') ?></p>
+        <p><?php the_field('description'); ?></p>
+        <p><?php the_field('adresse'); ?></p>     
 		<?php
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ajdm' ),
 			'after'  => '</div>',
 		) );
-
-		if ( 'post' === get_post_type() ) :
-			?>
+		?>
 			<div class="entry-meta">
 				<?php
 				ajdm_posted_on();
 				ajdm_posted_by();
 				?>
 			</div><!-- .entry-meta -->
-		<?php endif;
-		?>
-
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

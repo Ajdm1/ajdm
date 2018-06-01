@@ -33,15 +33,18 @@
                 <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ajdm' ) ); ?>">
                     <?php
                     /* translators: %s: CMS name, i.e. WordPress. */
-                    printf( esc_html__( 'Proudly powered by %s', 'ajdm' ), 'WordPress' );
+                    //printf( esc_html__( 'Proudly powered by %s', 'ajdm' ), 'WordPress' );
                     ?>
                 </a>
-                <span class="sep"> | </span>
+                <!-- <span class="sep"> | </span> -->
                     <?php
                     /* translators: 1: Theme name, 2: Theme author. */
-                    printf( esc_html__( 'Theme: %1$s by %2$s.', 'ajdm' ), 'ajdm', '<a href="http://underscores.me/">Underscores.me</a>' );
+                    //printf( esc_html__( 'Theme: %1$s by %2$s.', 'ajdm' ), 'ajdm', '<a href="http://underscores.me/">Underscores.me</a>' );
                     ?>
-            </div><!-- .site-info -->
+                
+                <?php if( dynamic_sidebar('footer4') ) :else : endif ?>        
+                                
+            </div><!-- .site-info --> <!-- remplacer par un nouveau widget -->
         </div>
         
 	</footer><!-- #colophon -->
